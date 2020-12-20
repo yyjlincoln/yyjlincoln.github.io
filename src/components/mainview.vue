@@ -14,7 +14,7 @@
               <div
                 class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0"
               >
-                <div class="flex items-center justify-between w-full md:w-auto">
+                <!-- <div class="flex items-center justify-between w-full md:w-auto">
                   <a href="#">
                     <span class="sr-only">Workflow</span>
                     <img
@@ -22,7 +22,7 @@
                       src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                     />
                   </a>
-                </div>
+                </div> -->
               </div>
             </nav>
           </div>
@@ -38,7 +38,7 @@
                 <span class="block text-indigo-600">yyjlincoln.</span>
               </h1>
               <p
-                class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+                class="mt-3 text-base text-gray-700 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               >
                 I'm a high school student, also a passionate Python3 &amp;
                 JavaScript (Vue) developer. I'm not very good at them though;
@@ -93,18 +93,11 @@
           </main>
         </div>
       </div>
-      <!-- <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img
-          class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
-          alt=""
-        />
-      </div> -->
-      <div class="w-screen h-screen absolute mt-0 top-0 bg-white opacity-80" style="z-index: -7;"></div>
-      <div class="w-screen h-screen absolute mt-0 top-0" style="z-index: -10;">
-        <img class="object-cover" src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"/>
-        
+      <div class="w-screen h-screen absolute mt-0 top-0 bg-white opacity-70 hidden sm:block" style="z-index: -7;"></div>
+      <div class="w-screen h-screen absolute mt-0 top-0 hidden sm:block" style="z-index: -10;">
+        <img class="object-cover w-screen h-screen" src="https://source.unsplash.com/random?coding,programming"/>        
       </div>
+      <div class="absolute bottom-1 right-1 opacity-50 hover:opacity-100 z-100 w-fit">Unsplash.</div>
     </div>
   </div>
 </template>
