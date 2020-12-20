@@ -34,7 +34,9 @@
               <h1
                 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
               >
-                <span class="block">G'day, it's</span>
+                <vue-typed-js :strings="['你好，我是','Hello, I\'m','G\'day, it\'s']" :shuffle="true" :loop="true" :loopCount="-1" :showCursor="true" :typeSpeed="70" :backSpeed="80" :startDelay="1500" :backDelay="5000">
+                  <h1 class="typing"></h1>
+                </vue-typed-js>
                 <span class="block text-indigo-600">yyjlincoln.</span>
               </h1>
               <p
@@ -93,11 +95,24 @@
           </main>
         </div>
       </div>
-      <div class="w-screen h-screen absolute mt-0 top-0 bg-white opacity-70 hidden sm:block" style="z-index: -7;"></div>
-      <div class="w-screen h-screen absolute mt-0 top-0 hidden sm:block" style="z-index: -10;">
-        <img class="object-cover w-screen h-screen" src="https://source.unsplash.com/random?coding,programming"/>        
+      <div
+        class="w-screen h-screen absolute mt-0 top-0 bg-white opacity-70 hidden sm:block"
+        style="z-index: -7"
+      ></div>
+      <div
+        class="w-screen h-screen absolute mt-0 top-0 hidden sm:block"
+        style="z-index: -10"
+      >
+        <img
+          class="object-cover w-screen h-screen"
+          src="https://source.unsplash.com/random?coding,programming"
+        />
       </div>
-      <div class="absolute bottom-1 right-1 opacity-50 hover:opacity-100 z-100 w-fit">Unsplash.</div>
+      <div
+        class="absolute bottom-1 right-1 opacity-50 hover:opacity-100 z-100 w-fit"
+      >
+        Unsplash.
+      </div>
     </div>
   </div>
 </template>
